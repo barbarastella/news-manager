@@ -8,7 +8,9 @@
 
 Aplicação Desktop desenvolvida em Java para gestão de notícias, seus tipos e mídias associadas. Possui interface gráfica construída em Swing e persistência de dados em PostgreSQL utilizando Java Persistence API (JPA) sobre Java Database Connectivity (JDBC).
 
-![Demonstração](./.github/images/demo.gif)
+<p align="center">
+  <img src=".github/image/demo.gif" width="450" alt="Demonstração do Sistema" />
+</p>
 
 ## 🔴 Funcionalidades
 
@@ -26,7 +28,9 @@ O sistema atua como um CMS (Content Management System) local, permitindo:
 
 As entidades do sistema englobam: `Noticias`, `TipoNoticia` e `Midias`. Abaixo está a representação da modelagem de domínio e seus relacionamentos estruturais:
 
-![Diagrama](./.github/images/diagrama.png)
+<p align="center">
+  <img src=".github/image/diagrama.png" width="650" alt="Demonstração do Sistema" />
+</p>
 
 A arquitetura do projeto foi dividida em camadas <mark>&nbsp;Model, View, DAO&nbsp;</mark> para manter uma divisão clara das funções de cada parte do sistema. 
 
